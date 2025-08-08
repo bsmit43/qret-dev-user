@@ -1,0 +1,843 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | StrategyPlus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Spectral:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        :root {
+            --primary: #2A63E2;
+            --secondary: #142C60;
+            --dark: #0A1E40;
+            --light: #F5F7FA;
+            --success: #20B15A;
+            --warning: #F5A623;
+            --danger: #E53935;
+            --gray: #6C757D;
+            --border: #E5E8ED;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #404B63;
+            line-height: 1.7;
+            background-color: var(--light);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Spectral', serif;
+            font-weight: 600;
+            color: var(--dark);
+            line-height: 1.3;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary);
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--secondary);
+        }
+        
+        .section-padding {
+            padding: 100px 0;
+        }
+        
+        .text-primary {
+            color: var(--primary) !important;
+        }
+        
+        .bg-primary {
+            background-color: var(--primary) !important;
+        }
+        
+        .text-secondary {
+            color: var(--secondary) !important;
+        }
+        
+        .bg-secondary {
+            background-color: var(--secondary) !important;
+        }
+        
+        .bg-light {
+            background-color: var(--light) !important;
+        }
+        
+        .bg-dark {
+            background-color: var(--dark) !important;
+        }
+        
+        /* Buttons */
+        .btn {
+            padding: 12px 28px;
+            font-weight: 500;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-outline-primary {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--dark);
+            border-color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(20, 44, 96, 0.2);
+        }
+        
+        /* Navbar */
+        .navbar {
+            padding: 20px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar.scrolled {
+            padding: 15px 0;
+            background-color: white;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        .navbar-brand {
+            font-family: 'Spectral', serif;
+            font-weight: 700;
+            font-size: 26px;
+            color: var(--dark);
+        }
+        
+        .navbar-brand span {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: var(--dark);
+            padding: 10px 16px;
+            position: relative;
+        }
+        
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link.active::after,
+        .navbar-nav .nav-link:hover::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 2px;
+            background-color: var(--primary);
+            bottom: 5px;
+            left: 16px;
+            transition: width 0.3s ease;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Spectral:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        :root {
+            --primary: #2A63E2;
+            --secondary: #142C60;
+            --dark: #0A1E40;
+            --light: #F5F7FA;
+            --success: #20B15A;
+            --warning: #F5A623;
+            --danger: #E53935;
+            --gray: #6C757D;
+            --border: #E5E8ED;
+        }
+
+
+        :root {
+            --primary: #2A63E2;
+            --secondary: #142C60;
+            --dark: #0A1E40;
+            --light: #F5F7FA;
+            --success: #20B15A;
+            --warning: #F5A623;
+            --danger: #E53935;
+            --gray: #6C757D;
+            --border: #E5E8ED;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #404B63;
+            line-height: 1.7;
+            background-color: var(--light);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Spectral', serif;
+            font-weight: 600;
+            color: var(--dark);
+            line-height: 1.3;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary);
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--secondary);
+        }
+        
+        .section-padding {
+            padding: 100px 0;
+        }
+        
+        .text-primary {
+            color: var(--primary) !important;
+        }
+        
+        .bg-primary {
+            background-color: var(--primary) !important;
+        }
+        
+        .text-secondary {
+            color: var(--secondary) !important;
+        }
+        
+        .bg-secondary {
+            background-color: var(--secondary) !important;
+        }
+        
+        .bg-light {
+            background-color: var(--light) !important;
+        }
+        
+        .bg-dark {
+            background-color: var(--dark) !important;
+        }
+        
+        /* Buttons */
+        .btn {
+            padding: 12px 28px;
+            font-weight: 500;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-outline-primary {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--dark);
+            border-color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(20, 44, 96, 0.2);
+        }
+        
+        /* Navbar */
+        .navbar {
+            padding: 20px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar.scrolled {
+            padding: 15px 0;
+            background-color: white;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        .navbar-brand {
+            font-family: 'Spectral', serif;
+            font-weight: 700;
+            font-size: 26px;
+            color: var(--dark);
+        }
+        
+        .navbar-brand span {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: var(--dark);
+            padding: 10px 16px;
+            position: relative;
+        }
+        
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link.active::after,
+        .navbar-nav .nav-link:hover::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 2px;
+            background-color: var(--primary);
+            bottom: 5px;
+            left: 16px;
+            transition: width 0.3s ease;
+        }
+    
+    </style>
+<style>
+  /* Industry-specific color scheme for Business Consulting */
+  :root {
+    /* Override ALL color variables with industry-specific colors */
+    --primary-color: #1e40af !important;
+    --primary-light: #1d4ed8 !important;
+    --primary-dark: #2563eb !important;
+    
+    --secondary-color: #64748b !important;
+    --secondary-light: #475569 !important;
+    --secondary-dark: #334155 !important;
+    
+    --accent-color: #059669 !important;
+    --accent-light: #047857 !important;
+    --accent-dark: #065f46 !important;
+    
+    /* Override common template color variables */
+    --primary: #1e40af !important;
+    --secondary: #64748b !important;
+    --accent: #059669 !important;
+    --dark: #1A1A1A !important;
+    --light: #FFFFFF !important;
+    --gray: #6C6C6C !important;
+    
+    /* Override gradient */
+    --gradient: linear-gradient(135deg, #1e40af 0%, #2563eb 100%) !important;
+    
+    /* Common color mappings */
+    --brand-primary: #1e40af !important;
+    --brand-secondary: #64748b !important;
+    --color-primary: #1e40af !important;
+    --color-secondary: #64748b !important;
+    --theme-primary: #1e40af !important;
+    --theme-secondary: #64748b !important;
+  }
+  
+  /* Apply colors to common Bootstrap and template patterns */
+  .btn-primary,
+  .primary-button,
+  button.primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+  }
+  
+  .btn-primary:hover,
+  .primary-button:hover,
+  button.primary:hover {
+    background-color: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+  }
+  
+  .text-primary {
+    color: var(--primary-color) !important;
+  }
+  
+  .bg-primary {
+    background-color: var(--primary-color) !important;
+  }
+  
+  .border-primary {
+    border-color: var(--primary-color) !important;
+  }
+  
+  /* Links */
+  a {
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--primary-dark);
+  }
+  
+  /* Hero sections */
+  .hero,
+  .hero-section,
+  .jumbotron {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
+  }
+  
+  /* Navigation */
+  .navbar-brand {
+    color: var(--primary-color) !important;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: var(--primary-color) !important;
+  }
+  
+  /* Forms */
+  .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(var(--primary-color), 0.25);
+  }
+  
+  /* Cards and sections */
+  .card-header {
+    background-color: var(--primary-light);
+    color: white;
+  }
+  
+  /* Industry-specific adjustments */
+  
+  
+  
+  
+  
+  
+  /* Aggressive overrides for templates with hardcoded colors */
+  /* Target specific color values that templates might use */
+  [style*="#FF6B35"] { color: #1e40af !important; }
+  [style*="#F7931E"] { color: #64748b !important; }
+  [style*="#FFD23F"] { color: #059669 !important; }
+  
+  /* Override inline styles and hardcoded backgrounds */
+  .hero[style*="background"] {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%) !important;
+  }
+  
+  /* Force color changes on elements that might have inline styles */
+  .text-primary,
+  [class*="text-primary"],
+  [class*="color-primary"] {
+    color: #1e40af !important;
+  }
+  
+  .bg-primary,
+  [class*="bg-primary"],
+  [class*="background-primary"] {
+    background-color: #1e40af !important;
+  }
+  
+  /* Override gradient classes */
+  .text-gradient,
+  [class*="gradient"] {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+  }
+  
+  /* Ensure buttons use new colors */
+  button,
+  .btn,
+  [type="button"],
+  [type="submit"] {
+    transition: all 0.3s ease;
+  }
+  
+  button:not(.btn-secondary):not(.btn-light):not(.btn-dark),
+  .btn:not(.btn-secondary):not(.btn-light):not(.btn-dark) {
+    background-color: #1e40af !important;
+    border-color: #1e40af !important;
+  }
+  
+  button:not(.btn-secondary):not(.btn-light):not(.btn-dark):hover,
+  .btn:not(.btn-secondary):not(.btn-light):not(.btn-dark):hover {
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
+  }
+</style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Strategy<span>Plus</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="case-studies.html">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-lg-3" href="contact.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="animate-fade-in-up">our strategic consulting and business business solutions and strategies</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb animate-fade-in-up delay-100">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Services</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services-section section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>What We Offer</h2>
+                <p>We provide comprehensive business consulting services tailored to meet your specific needs and help your business thrive in today's competitive market.</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319z"/>
+                            </svg>
+                        </div>
+                        <h3>Strategic Planning</h3>
+                        <p>We help you develop comprehensive strategic plans that align with your business goals and provide a clear roadmap for success.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                                <path d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v1.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 5.884V4.5zm5-2A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
+                            </svg>
+                        </div>
+                        <h3>Financial Advisory</h3>
+                        <p>Our financial experts provide guidance on financial management, investment strategies, and cost optimization to improve your bottom line.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                            </svg>
+                        </div>
+                        <h3>Human Resources</h3>
+                        <p>We help you build and manage high-performing teams through effective recruitment, training, and employee development strategies.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                                <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </div>
+                        <h3>Market Research</h3>
+                        <p>Our comprehensive market research helps you understand your target audience, competitors, and industry trends to make informed business decisions.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+                            </svg>
+                        </div>
+                        <h3>Process Optimization</h3>
+                        <p>We analyze your business processes and identify opportunities for improvement to increase efficiency, reduce costs, and enhance productivity.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                            </svg>
+                        </div>
+                        <h3>Risk Management</h3>
+                        <p>Our risk management services help you identify, assess, and mitigate potential risks to protect your business and ensure long-term sustainability.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Pricing Plans</h2>
+                <p>Choose the perfect consulting package that fits your business needs and budget.</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Basic</h3>
+                            <div class="pricing-price">$999</div>
+                            <div class="pricing-duration">per month</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Strategic Business Analysis</li>
+                            <li>Monthly strategic consultation (4 hours)</li>
+                            <li>Basic Financial Review</li>
+                            <li>Email Support</li>
+                            <li>Quarterly Progress Report</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card featured">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Professional</h3>
+                            <div class="pricing-price">$2,499</div>
+                            <div class="pricing-duration">per month</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Comprehensive Business Analysis</li>
+                            <li>Weekly strategic consultation (10 hours)</li>
+                            <li>Detailed Financial Planning</li>
+                            <li>Priority Email & Phone Support</li>
+                            <li>Monthly Progress Reports</li>
+                            <li>Market Research & Analysis</li>
+                            <li>Process Optimization</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Enterprise</h3>
+                            <div class="pricing-price">$4,999</div>
+                            <div class="pricing-duration">per month</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Full-Scale Business Analysis</li>
+                            <li>Unlimited strategic consultation</li>
+                            <li>Comprehensive Financial Strategy</li>
+                            <li>24/7 Priority Support</li>
+                            <li>Weekly Progress Reports</li>
+                            <li>Advanced Market Research</li>
+                            <li>Complete Process Optimization</li>
+                            <li>Risk Management</li>
+                            <li>Dedicated Consultant</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2>Ready to Transform Qret?</h2>
+                    <p>Connect with Qret for exceptional consulting services to schedule a free strategic consultation and discover how our strategic consulting and business business solutions and strategies can help your business grow and succeed.</p>
+                    <a href="contact.html" class="btn btn-light">Reach out to our consulting experts today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget footer-about">
+                        <h4>About Us</h4>
+                        <p>We are a leading business consulting firm dedicated to helping businesses grow, optimize their operations, and achieve their goals through strategic planning and expert guidance.</p>
+                        <ul class="footer-social">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget footer-links">
+                        <h4>our strategic consulting and business business solutions and strategies</h4>
+                        <ul>
+                            <li><a href="#">Strategic Planning</a></li>
+                            <li><a href="#">Financial Advisory</a></li>
+                            <li><a href="#">Human Resources</a></li>
+                            <li><a href="#">Market Research</a></li>
+                            <li><a href="#">Process Optimization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4>Contact Info</h4>
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Suite 100<br>New York, NY 10001</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@strategyplus.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 StrategyPlus. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../slide-out-menu.js"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Animation on scroll (simple implementation)
+        document.addEventListener('DOMContentLoaded', function() {
+            const animatedElements = document.querySelectorAll('.animate-fade-in-up');
+            
+            function checkPosition() {
+                for (let i = 0; i < animatedElements.length; i++) {
+                    let element = animatedElements[i];
+                    let positionFromTop = element.getBoundingClientRect().top;
+                    
+                    if (positionFromTop - window.innerHeight <= 0) {
+                        element.style.opacity = "1";
+                    }
+                }
+            }
+            
+            // Check positions on load
+            checkPosition();
+            
+            // Check positions on scroll
+            window.addEventListener('scroll', checkPosition);
+        });
+    </script>
+
+    <!-- Universal Form Handler -->
+    <script>
+      window.FORM_HANDLER_CONFIG = {
+        apiEndpoint: 'https://genmysite.com/api/forms/submit',
+        websiteId: null,
+        recaptchaSiteKey: null,
+        debug: false
+      };
+    </script>
+    <script src="/js/form-handler.js" defer></script>
+</body>
+</html>
