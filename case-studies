@@ -1,0 +1,1243 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies | Business Consulting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Spectral:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        :root {
+            --primary: #2A63E2;
+            --secondary: #142C60;
+            --dark: #0A1E40;
+            --light: #F5F7FA;
+            --success: #20B15A;
+            --warning: #F5A623;
+            --danger: #E53935;
+            --gray: #6C757D;
+            --border: #E5E8ED;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #404B63;
+            line-height: 1.7;
+            background-color: var(--light);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Spectral', serif;
+            font-weight: 600;
+            color: var(--dark);
+            line-height: 1.3;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary);
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--secondary);
+        }
+        
+        .section-padding {
+            padding: 100px 0;
+        }
+        
+        .text-primary {
+            color: var(--primary) !important;
+        }
+        
+        .bg-primary {
+            background-color: var(--primary) !important;
+        }
+        
+        .text-secondary {
+            color: var(--secondary) !important;
+        }
+        
+        .bg-secondary {
+            background-color: var(--secondary) !important;
+        }
+        
+        .bg-light {
+            background-color: var(--light) !important;
+        }
+        
+        .bg-dark {
+            background-color: var(--dark) !important;
+        }
+        
+        /* Buttons */
+        .btn {
+            padding: 12px 28px;
+            font-weight: 500;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-outline-primary {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--dark);
+            border-color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(20, 44, 96, 0.2);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Spectral:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        :root {
+            --primary: #2A63E2;
+            --secondary: #142C60;
+            --dark: #0A1E40;
+            --light: #F5F7FA;
+            --success: #20B15A;
+            --warning: #F5A623;
+            --danger: #E53935;
+            --gray: #6C757D;
+            --border: #E5E8ED;
+        }
+
+
+        :root {
+            --primary: #2A63E2;
+            --secondary: #142C60;
+            --dark: #0A1E40;
+            --light: #F5F7FA;
+            --success: #20B15A;
+            --warning: #F5A623;
+            --danger: #E53935;
+            --gray: #6C757D;
+            --border: #E5E8ED;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #404B63;
+            line-height: 1.7;
+            background-color: var(--light);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Spectral', serif;
+            font-weight: 600;
+            color: var(--dark);
+            line-height: 1.3;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary);
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--secondary);
+        }
+        
+        .section-padding {
+            padding: 100px 0;
+        }
+        
+        .text-primary {
+            color: var(--primary) !important;
+        }
+        
+        .bg-primary {
+            background-color: var(--primary) !important;
+        }
+        
+        .text-secondary {
+            color: var(--secondary) !important;
+        }
+        
+        .bg-secondary {
+            background-color: var(--secondary) !important;
+        }
+        
+        .bg-light {
+            background-color: var(--light) !important;
+        }
+        
+        .bg-dark {
+            background-color: var(--dark) !important;
+        }
+        
+        /* Buttons */
+        .btn {
+            padding: 12px 28px;
+            font-weight: 500;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-outline-primary {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(42, 99, 226, 0.2);
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--dark);
+            border-color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(20, 44, 96, 0.2);
+        }
+    
+
+        /* Navbar */
+        .navbar {
+            padding: 20px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar.scrolled {
+            padding: 15px 0;
+            background-color: white;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        .navbar-brand {
+            font-family: 'Spectral', serif;
+            font-weight: 700;
+            font-size: 26px;
+            color: var(--dark);
+        }
+        
+        .navbar-brand span {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: var(--dark);
+            padding: 10px 16px;
+            position: relative;
+        }
+        
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link.active::after,
+        .navbar-nav .nav-link:hover::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 2px;
+            background-color: var(--primary);
+            bottom: 5px;
+            left: 16px;
+            transition: width 0.3s ease;
+        }
+        
+        /* Page Header */
+        .page-header {
+            background-color: var(--secondary);
+            padding: 150px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .page-header::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, rgba(42, 99, 226, 0.1), rgba(42, 99, 226, 0.05));
+            top: -200px;
+            right: -200px;
+            z-index: 0;
+        }
+        
+        .page-header::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, rgba(20, 44, 96, 0.1), rgba(20, 44, 96, 0.05));
+            bottom: -150px;
+            left: -150px;
+            z-index: 0;
+        }
+        
+        .page-header-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .breadcrumb {
+            display: inline-flex;
+            background-color: transparent;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        
+        .breadcrumb-item,
+        .breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 500;
+        }
+        
+        .breadcrumb-item.active {
+            color: white;
+        }
+        
+        .breadcrumb-item + .breadcrumb-item::before {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        /* Case Studies */
+        .case-studies-section {
+            padding: 100px 0;
+        }
+        
+        .section-title {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            width: 70px;
+            height: 3px;
+            background-color: var(--primary);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .section-title p {
+            max-width: 700px;
+            margin: 0 auto;
+            color: var(--gray);
+        }
+        
+        .case-study-card {
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            background-color: white;
+        }
+        
+        .case-study-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .case-study-image {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .case-study-image img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: all 0.5s ease;
+        }
+        
+        .case-study-card:hover .case-study-image img {
+            transform: scale(1.1);
+        }
+        
+        .case-study-category {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: var(--primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .case-study-content {
+            padding: 30px;
+        }
+        
+        .case-study-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .case-study-content p {
+            margin-bottom: 20px;
+            color: var(--gray);
+        }
+        
+        .case-study-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+        
+        .case-study-client {
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .case-study-date {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Case Study Filters */
+        .case-study-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        
+        .filter-button {
+            padding: 8px 20px;
+            margin: 5px;
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: 30px;
+            color: var(--dark);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .filter-button:hover,
+        .filter-button.active {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+    
+    </style>
+<style>
+  /* Industry-specific color scheme for Business Consulting */
+  :root {
+    /* Override ALL color variables with industry-specific colors */
+    --primary-color: #1e40af !important;
+    --primary-light: #1d4ed8 !important;
+    --primary-dark: #2563eb !important;
+    
+    --secondary-color: #64748b !important;
+    --secondary-light: #475569 !important;
+    --secondary-dark: #334155 !important;
+    
+    --accent-color: #059669 !important;
+    --accent-light: #047857 !important;
+    --accent-dark: #065f46 !important;
+    
+    /* Override common template color variables */
+    --primary: #1e40af !important;
+    --secondary: #64748b !important;
+    --accent: #059669 !important;
+    --dark: #1A1A1A !important;
+    --light: #FFFFFF !important;
+    --gray: #6C6C6C !important;
+    
+    /* Override gradient */
+    --gradient: linear-gradient(135deg, #1e40af 0%, #2563eb 100%) !important;
+    
+    /* Common color mappings */
+    --brand-primary: #1e40af !important;
+    --brand-secondary: #64748b !important;
+    --color-primary: #1e40af !important;
+    --color-secondary: #64748b !important;
+    --theme-primary: #1e40af !important;
+    --theme-secondary: #64748b !important;
+  }
+  
+  /* Apply colors to common Bootstrap and template patterns */
+  .btn-primary,
+  .primary-button,
+  button.primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+  }
+  
+  .btn-primary:hover,
+  .primary-button:hover,
+  button.primary:hover {
+    background-color: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+  }
+  
+  .text-primary {
+    color: var(--primary-color) !important;
+  }
+  
+  .bg-primary {
+    background-color: var(--primary-color) !important;
+  }
+  
+  .border-primary {
+    border-color: var(--primary-color) !important;
+  }
+  
+  /* Links */
+  a {
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--primary-dark);
+  }
+  
+  /* Hero sections */
+  .hero,
+  .hero-section,
+  .jumbotron {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
+  }
+  
+  /* Navigation */
+  .navbar-brand {
+    color: var(--primary-color) !important;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: var(--primary-color) !important;
+  }
+  
+  /* Forms */
+  .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(var(--primary-color), 0.25);
+  }
+  
+  /* Cards and sections */
+  .card-header {
+    background-color: var(--primary-light);
+    color: white;
+  }
+  
+  /* Industry-specific adjustments */
+  
+  
+  
+  
+  
+  
+  /* Aggressive overrides for templates with hardcoded colors */
+  /* Target specific color values that templates might use */
+  [style*="#FF6B35"] { color: #1e40af !important; }
+  [style*="#F7931E"] { color: #64748b !important; }
+  [style*="#FFD23F"] { color: #059669 !important; }
+  
+  /* Override inline styles and hardcoded backgrounds */
+  .hero[style*="background"] {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%) !important;
+  }
+  
+  /* Force color changes on elements that might have inline styles */
+  .text-primary,
+  [class*="text-primary"],
+  [class*="color-primary"] {
+    color: #1e40af !important;
+  }
+  
+  .bg-primary,
+  [class*="bg-primary"],
+  [class*="background-primary"] {
+    background-color: #1e40af !important;
+  }
+  
+  /* Override gradient classes */
+  .text-gradient,
+  [class*="gradient"] {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+  }
+  
+  /* Ensure buttons use new colors */
+  button,
+  .btn,
+  [type="button"],
+  [type="submit"] {
+    transition: all 0.3s ease;
+  }
+  
+  button:not(.btn-secondary):not(.btn-light):not(.btn-dark),
+  .btn:not(.btn-secondary):not(.btn-light):not(.btn-dark) {
+    background-color: #1e40af !important;
+    border-color: #1e40af !important;
+  }
+  
+  button:not(.btn-secondary):not(.btn-light):not(.btn-dark):hover,
+  .btn:not(.btn-secondary):not(.btn-light):not(.btn-dark):hover {
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
+  }
+</style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Strategy<span>Plus</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="case-studies.html">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-lg-3" href="contact.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Additional CSS for Case Studies page -->
+    <style>
+        /* Navbar */
+        .navbar {
+            padding: 20px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar.scrolled {
+            padding: 15px 0;
+            background-color: white;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        .navbar-brand {
+            font-family: 'Spectral', serif;
+            font-weight: 700;
+            font-size: 26px;
+            color: var(--dark);
+        }
+        
+        .navbar-brand span {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: var(--dark);
+            padding: 10px 16px;
+            position: relative;
+        }
+        
+        .navbar-nav .nav-link.active,
+        .navbar-nav .nav-link:hover {
+            color: var(--primary);
+        }
+        
+        .navbar-nav .nav-link.active::after,
+        .navbar-nav .nav-link:hover::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 2px;
+            background-color: var(--primary);
+            bottom: 5px;
+            left: 16px;
+            transition: width 0.3s ease;
+        }
+        
+        /* Page Header */
+        .page-header {
+            background-color: var(--secondary);
+            padding: 150px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .page-header::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, rgba(42, 99, 226, 0.1), rgba(42, 99, 226, 0.05));
+            top: -200px;
+            right: -200px;
+            z-index: 0;
+        }
+        
+        .page-header::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, rgba(20, 44, 96, 0.1), rgba(20, 44, 96, 0.05));
+            bottom: -150px;
+            left: -150px;
+            z-index: 0;
+        }
+        
+        .page-header-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .breadcrumb {
+            display: inline-flex;
+            background-color: transparent;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        
+        .breadcrumb-item,
+        .breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 500;
+        }
+        
+        .breadcrumb-item.active {
+            color: white;
+        }
+        
+        .breadcrumb-item + .breadcrumb-item::before {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        /* Case Studies */
+        .case-studies-section {
+            padding: 100px 0;
+        }
+        
+        .section-title {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            width: 70px;
+            height: 3px;
+            background-color: var(--primary);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .section-title p {
+            max-width: 700px;
+            margin: 0 auto;
+            color: var(--gray);
+        }
+        
+        .case-study-card {
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            background-color: white;
+        }
+        
+        .case-study-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .case-study-image {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .case-study-image img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: all 0.5s ease;
+        }
+        
+        .case-study-card:hover .case-study-image img {
+            transform: scale(1.1);
+        }
+        
+        .case-study-category {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: var(--primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .case-study-content {
+            padding: 30px;
+        }
+        
+        .case-study-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .case-study-content p {
+            margin-bottom: 20px;
+            color: var(--gray);
+        }
+        
+        .case-study-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+        
+        .case-study-client {
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .case-study-date {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Case Study Filters */
+        .case-study-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        
+        .filter-button {
+            padding: 8px 20px;
+            margin: 5px;
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: 30px;
+            color: var(--dark);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .filter-button:hover,
+        .filter-button.active {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+    </style>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="animate-fade-in-up">Case Studies</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb animate-fade-in-up delay-100">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Case Studies</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Case Studies Section -->
+    <section class="case-studies-section section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Success Stories</h2>
+                <p>Explore our portfolio of successful client consulting engagements and initiatives and discover how our consulting services have helped businesses achieve their goals.</p>
+            </div>
+            
+            <div class="case-study-filters">
+                <button class="filter-button active" data-filter="all">All</button>
+                <button class="filter-button" data-filter="strategy">Strategy</button>
+                <button class="filter-button" data-filter="finance">Finance</button>
+                <button class="filter-button" data-filter="operations">Operations</button>
+                <button class="filter-button" data-filter="marketing">Marketing</button>
+                <button class="filter-button" data-filter="hr">HR</button>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 case-study-item strategy">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600&q=80" alt="Strategic Transformation">
+                            <div class="case-study-category">Strategy</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3>Strategic Transformation for Tech Company</h3>
+                            <p>We helped a mid-sized tech company redefine their business strategy, resulting in a 45% increase in market share and 30% revenue growth within 12 months.</p>
+                            <a href="#" class="btn btn-outline-primary">Read Case Study</a>
+                            <div class="case-study-meta">
+                                <div class="case-study-client">Client: TechInnovate Inc.</div>
+                                <div class="case-study-date">2023</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 case-study-item finance">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600&q=80" alt="Financial Restructuring">
+                            <div class="case-study-category">Finance</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3>Financial Restructuring for Retail Chain</h3>
+                            <p>Our financial advisory team helped a struggling retail chain restructure their finances, reducing operational costs by 25% and increasing profitability by 40%.</p>
+                            <a href="#" class="btn btn-outline-primary">Read Case Study</a>
+                            <div class="case-study-meta">
+                                <div class="case-study-client">Client: RetailPlus Group</div>
+                                <div class="case-study-date">2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 case-study-item operations">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="/images/why-choose-3.jpg" alt="Process Optimization">
+                            <div class="case-study-category">Operations</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3>Process Optimization for Manufacturing Firm</h3>
+                            <p>We optimized the production processes for a manufacturing company, resulting in a 35% increase in efficiency and 20% reduction in production costs.</p>
+                            <a href="#" class="btn btn-outline-primary">Read Case Study</a>
+                            <div class="case-study-meta">
+                                <div class="case-study-client">Client: GlobalManufacture Co.</div>
+                                <div class="case-study-date">2023</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 case-study-item marketing">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600&q=80" alt="Market Expansion">
+                            <div class="case-study-category">Marketing</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3>Market Expansion Strategy for SaaS Company</h3>
+                            <p>Our team developed a comprehensive market expansion strategy for a SaaS company, helping them enter three new markets and increase their customer base by 60%.</p>
+                            <a href="#" class="btn btn-outline-primary">Read Case Study</a>
+                            <div class="case-study-meta">
+                                <div class="case-study-client">Client: Cloudbusiness solutions and strategies Ltd.</div>
+                                <div class="case-study-date">2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 case-study-item hr">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=500&q=80" alt="Talent Acquisition">
+                            <div class="case-study-category">HR</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3>Talent Acquisition Strategy for Growing Startup</h3>
+                            <p>We developed a talent acquisition and retention strategy for a fast-growing startup, reducing turnover by 40% and improving employee satisfaction scores by 35%.</p>
+                            <a href="#" class="btn btn-outline-primary">Read Case Study</a>
+                            <div class="case-study-meta">
+                                <div class="case-study-client">Client: InnovateTech Startup</div>
+                                <div class="case-study-date">2023</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 case-study-item strategy finance">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=500&q=80" alt="Merger & Acquisition">
+                            <div class="case-study-category">Strategy & Finance</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3>Successful Merger & Acquisition Advisory</h3>
+                            <p>Our team provided comprehensive M&A advisory services for a mid-market company, resulting in a successful acquisition that increased company valuation by 50%.</p>
+                            <a href="#" class="btn btn-outline-primary">Read Case Study</a>
+                            <div class="case-study-meta">
+                                <div class="case-study-client">Client: MergeCapital Inc.</div>
+                                <div class="case-study-date">2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2>Ready to Achieve Similar Results?</h2>
+                    <p>Connect with Qret for exceptional consulting services to discuss how our consulting services can help your business overcome challenges and achieve sustainable growth.</p>
+                    <a href="contact.html" class="btn btn-light">Reach out to our consulting experts today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget footer-about">
+                        <h4>About Us</h4>
+                        <p>We are a leading business consulting firm dedicated to helping businesses grow, optimize their operations, and achieve their goals through strategic planning and expert guidance.</p>
+                        <ul class="footer-social">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget footer-links">
+                        <h4>our strategic consulting and business business solutions and strategies</h4>
+                        <ul>
+                            <li><a href="services.html">Strategic Planning</a></li>
+                            <li><a href="services.html">Financial Advisory</a></li>
+                            <li><a href="services.html">Human Resources</a></li>
+                            <li><a href="services.html">Market Research</a></li>
+                            <li><a href="services.html">Process Optimization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4>Contact Info</h4>
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Business Avenue, Suite 100<br>New York, NY 10001</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@businessconsulting.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Business Consulting. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../slide-out-menu.js"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Case study filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-button');
+            const caseStudyItems = document.querySelectorAll('.case-study-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    caseStudyItems.forEach(item => {
+                        if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Animation on scroll
+            const animatedElements = document.querySelectorAll('.animate-fade-in-up');
+            
+            function checkPosition() {
+                for (let i = 0; i < animatedElements.length; i++) {
+                    let element = animatedElements[i];
+                    let positionFromTop = element.getBoundingClientRect().top;
+                    
+                    if (positionFromTop - window.innerHeight <= 0) {
+                        element.style.opacity = "1";
+                    }
+                }
+            }
+            
+            // Check positions on load
+            checkPosition();
+            
+            // Check positions on scroll
+            window.addEventListener('scroll', checkPosition);
+        });
+    </script>
+
+    <!-- Universal Form Handler -->
+    <script>
+      window.FORM_HANDLER_CONFIG = {
+        apiEndpoint: 'https://genmysite.com/api/forms/submit',
+        websiteId: null,
+        recaptchaSiteKey: null,
+        debug: false
+      };
+    </script>
+    <script src="/js/form-handler.js" defer></script>
+</body>
+</html>
